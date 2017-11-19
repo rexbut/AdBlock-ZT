@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name" :"AdBlock ZT",
+	"version" :"1.0",
+	"description" :"Désactive DL-Protect",
+	"permissions": [
+	  "http://ww1.zone-telechargement.ws/*",
+	  "https://ww1.zone-telechargement.ws/*"
+	 ],
+	"browser_action" : {
+		"default_icon" : "img/icon.png",
+		"default_popup" : "popup.html"
+	},
+	"icons": {
+		"128" : "img/icon_128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://ww1.zone-telechargement.ws/*","https://ww1.zone-telechargement.ws/*"],
+			"js": ["jquery-3.2.1.min.js", "myscript.js"]
+		}
+	]
+}

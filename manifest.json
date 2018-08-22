@@ -18,7 +18,7 @@
 	},
 	"content_scripts": [
 		{
-			"matches": ["http://ww1.zone-telechargement.ws/*","https://ww1.zone-telechargement.ws/*"],
+			"matches": ["http://ww1.zone-telechargement1.org/*","https://ww1.zone-telechargement1.org/*","http://zone-telechargement1.org/*","https://zone-telechargement1.org/*"],
 			"js": ["jquery-3.2.1.min.js", "myscript.js"]
 		}
 	]

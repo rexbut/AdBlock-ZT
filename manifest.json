@@ -4,8 +4,10 @@
 	"version" :"1.0",
 	"description" :"Désactive DL-Protect",
 	"permissions": [
-	  "http://ww1.zone-telechargement.ws/*",
-	  "https://ww1.zone-telechargement.ws/*"
+	  "http://ww1.zone-telechargement1.org/*",
+	  "https://ww1.zone-telechargement1.org/*",
+	  "http://zone-telechargement1.org/*",
+	  "https://zone-telechargement1.org/*"
 	 ],
 	"browser_action" : {
 		"default_icon" : "img/icon.png",

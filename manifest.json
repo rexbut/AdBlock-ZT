@@ -4,8 +4,8 @@
 	"version" :"1.4",
 	"description" :"Désactive DL-Protect",
 	"permissions": [
-	  "https://*.annuaire-telechargement.com/*",
-	  "http://*.annuaire-telechargement.com/*"
+	  "https://*.zone-telechargement.net/*",
+	  "http://*.zone-telechargement.net/*"
 	 ],
 	"browser_action" : {
 		"default_icon" : "img/icon.png",
@@ -16,7 +16,7 @@
 	},
 	"content_scripts": [
 		{
-			"matches": ["https://*.annuaire-telechargement.com/*","http://*.annuaire-telechargement.com/*"],
+			"matches": ["https://*.zone-telechargement.net/*","http://*.zone-telechargement.net/*"],
 			"js": ["jquery-3.2.1.min.js", "myscript.js"]
 		}
 	]
